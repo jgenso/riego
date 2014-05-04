@@ -16,7 +16,11 @@ object LiftProjectBuild extends Build {
         "org.eclipse.jetty" % "jetty-webapp" % Ver.jetty % "container",
         "ch.qos.logback" % "logback-classic" % "1.0.13" % "compile",
         "org.scalatest" %% "scalatest" % "1.9.2" % "test",
-        "com.foursquare" %% "rogue-lift" % "2.2.0"
+        "com.foursquare" %% "rogue-lift" % "2.2.0",
+        "com.pi4j" % "pi4j-core" % "0.0.5", 
+        "joda-time" % "joda-time" % "2.3",
+        "org.scalaj" % "scalaj-time_2.10.2" % "0.7",
+        "org.quartz-scheduler" % "quartz" % "2.2.1"
       )
     )
 }
